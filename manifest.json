@@ -1,0 +1,16 @@
+{
+  "name": "preço bitcoin",
+  "description": "Preço atual do bitcoin",
+  "version": "1.0",
+  "manifest_version": 3,
+  "host_permissions": [
+    "https://www.mercadobitcoin.net/*"
+],
+  "permissions": ["storage", "activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
